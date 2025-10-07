@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:07:00 2025
+
+
+ Performance counter stats for './/gemm/ofast/gemm_ofast.out':
+
+           1157.42 msec task-clock                       #    0.998 CPUs utilized             
+                21      context-switches                 #   18.144 /sec                      
+                 1      cpu-migrations                   #    0.864 /sec                      
+              1511      page-faults                      #    1.305 K/sec                     
+        5374215843      instructions                     #    2.32  insn per cycle            
+        2318609527      cycles                           #    2.003 GHz                       
+         668592353      branches                         #  577.658 M/sec                     
+           1236432      branch-misses                    #    0.18% of all branches           
+                        TopdownL1                 #     50.6 %  tma_backend_bound      
+                                                  #      3.9 %  tma_bad_speculation    
+                                                  #      3.5 %  tma_frontend_bound     
+                                                  #     42.0 %  tma_retiring           
+
+       1.159912226 seconds time elapsed
+
+       1.136271000 seconds user
+       0.011822000 seconds sys
+
+

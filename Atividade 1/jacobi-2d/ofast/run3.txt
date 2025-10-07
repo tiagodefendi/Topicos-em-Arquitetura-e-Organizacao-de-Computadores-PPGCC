@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:08:25 2025
+
+
+ Performance counter stats for './/jacobi-2d/ofast/jacobi-2d_ofast.out':
+
+           3233.76 msec task-clock                       #    0.998 CPUs utilized             
+                75      context-switches                 #   23.193 /sec                      
+                 3      cpu-migrations                   #    0.928 /sec                      
+              1037      page-faults                      #  320.680 /sec                      
+       11857030300      instructions                     #    1.49  insn per cycle            
+        7942185572      cycles                           #    2.456 GHz                       
+         851415932      branches                         #  263.290 M/sec                     
+           1353848      branch-misses                    #    0.16% of all branches           
+                        TopdownL1                 #     61.7 %  tma_backend_bound      
+                                                  #      9.1 %  tma_bad_speculation    
+                                                  #      3.4 %  tma_frontend_bound     
+                                                  #     25.8 %  tma_retiring           
+
+       3.239247398 seconds time elapsed
+
+       3.211028000 seconds user
+       0.005844000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:06:54 2025
+
+
+ Performance counter stats for './/gemm/o3/gemm_o3.out':
+
+           1174.73 msec task-clock                       #    0.997 CPUs utilized             
+                31      context-switches                 #   26.389 /sec                      
+                 1      cpu-migrations                   #    0.851 /sec                      
+              1510      page-faults                      #    1.285 K/sec                     
+        5373994278      instructions                     #    2.26  insn per cycle            
+        2372966677      cycles                           #    2.020 GHz                       
+         668552567      branches                         #  569.110 M/sec                     
+           1236898      branch-misses                    #    0.19% of all branches           
+                        TopdownL1                 #     50.4 %  tma_backend_bound      
+                                                  #      5.8 %  tma_bad_speculation    
+                                                  #      3.3 %  tma_frontend_bound     
+                                                  #     40.6 %  tma_retiring           
+
+       1.178792377 seconds time elapsed
+
+       1.158770000 seconds user
+       0.005931000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:07:01 2025
+
+
+ Performance counter stats for './/gemver/default/gemver_default.out':
+
+             76.45 msec task-clock                       #    0.983 CPUs utilized             
+                 3      context-switches                 #   39.244 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               239      page-faults                      #    3.126 K/sec                     
+         555130606      instructions                     #    2.93  insn per cycle            
+         189362778      cycles                           #    2.477 GHz                       
+          16639582      branches                         #  217.665 M/sec                     
+             16325      branch-misses                    #    0.10% of all branches           
+                        TopdownL1                 #     33.7 %  tma_backend_bound      
+                                                  #      1.2 %  tma_bad_speculation    
+                                                  #      3.5 %  tma_frontend_bound     
+                                                  #     61.6 %  tma_retiring           
+
+       0.077768812 seconds time elapsed
+
+       0.070223000 seconds user
+       0.006999000 seconds sys
+
+

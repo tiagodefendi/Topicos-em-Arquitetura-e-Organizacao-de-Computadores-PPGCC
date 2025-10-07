@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:06:29 2025
+
+
+ Performance counter stats for './/gemm/default/gemm_default.out':
+
+           5722.85 msec task-clock                       #    0.998 CPUs utilized             
+               262      context-switches                 #   45.781 /sec                      
+                17      cpu-migrations                   #    2.971 /sec                      
+              1509      page-faults                      #  263.680 /sec                      
+       52968407341      instructions                     #    3.52  insn per cycle            
+       15030304009      cycles                           #    2.626 GHz                       
+        1338550852      branches                         #  233.896 M/sec                     
+           1284938      branch-misses                    #    0.10% of all branches           
+                        TopdownL1                 #     23.9 %  tma_backend_bound      
+                                                  #     11.2 %  tma_bad_speculation    
+                                                  #      0.0 %  tma_frontend_bound     
+                                                  #     65.0 %  tma_retiring           
+
+       5.734519826 seconds time elapsed
+
+       5.685851000 seconds user
+       0.013876000 seconds sys
+
+

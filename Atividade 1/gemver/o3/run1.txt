@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:07:02 2025
+
+
+ Performance counter stats for './/gemver/o3/gemver_o3.out':
+
+             47.47 msec task-clock                       #    0.982 CPUs utilized             
+                 0      context-switches                 #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               240      page-faults                      #    5.056 K/sec                     
+         142797861      instructions                     #    2.06  insn per cycle            
+          69204895      cycles                           #    1.458 GHz                       
+          11580376      branches                         #  243.969 M/sec                     
+             15535      branch-misses                    #    0.13% of all branches           
+                        TopdownL1                 #     55.3 %  tma_backend_bound      
+                                                  #      1.2 %  tma_bad_speculation    
+                                                  #      3.9 %  tma_frontend_bound     
+                                                  #     39.6 %  tma_retiring           
+
+       0.048323597 seconds time elapsed
+
+       0.044272000 seconds user
+       0.003994000 seconds sys
+
+

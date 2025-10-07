@@ -1,0 +1,29 @@
+==== Program stdout/stderr (.//jacobi-2d/default/jacobi-2d_default.out) ====
+
+
+==== perf stat output ====
+
+# started on Tue Oct  7 13:02:38 2025
+
+
+ Performance counter stats for './/jacobi-2d/default/jacobi-2d_default.out':
+
+          10781.55 msec task-clock                       #    0.998 CPUs utilized             
+               552      context-switches                 #   51.199 /sec                      
+                32      cpu-migrations                   #    2.968 /sec                      
+              1040      page-faults                      #   96.461 /sec                      
+      106314163661      instructions                     #    3.54  insn per cycle            
+       30039766260      cycles                           #    2.786 GHz                       
+        1706896368      branches                         #  158.316 M/sec                     
+           1419731      branch-misses                    #    0.08% of all branches           
+                        TopdownL1                 #     19.5 %  tma_backend_bound      
+                                                  #     15.5 %  tma_bad_speculation    
+                                                  #      0.8 %  tma_frontend_bound     
+                                                  #     64.3 %  tma_retiring           
+
+      10.799613545 seconds time elapsed
+
+      10.731793000 seconds user
+       0.015800000 seconds sys
+
+

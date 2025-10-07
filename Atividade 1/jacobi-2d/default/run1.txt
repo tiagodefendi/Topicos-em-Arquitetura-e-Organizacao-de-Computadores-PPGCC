@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:07:02 2025
+
+
+ Performance counter stats for './/jacobi-2d/default/jacobi-2d_default.out':
+
+          10765.16 msec task-clock                       #    0.999 CPUs utilized             
+               177      context-switches                 #   16.442 /sec                      
+                13      cpu-migrations                   #    1.208 /sec                      
+              1039      page-faults                      #   96.515 /sec                      
+      106312662211      instructions                     #    3.53  insn per cycle            
+       30152923990      cycles                           #    2.801 GHz                       
+        1706563655      branches                         #  158.527 M/sec                     
+           1430891      branch-misses                    #    0.08% of all branches           
+                        TopdownL1                 #     23.5 %  tma_backend_bound      
+                                                  #     10.3 %  tma_bad_speculation    
+                                                  #      0.8 %  tma_frontend_bound     
+                                                  #     65.4 %  tma_retiring           
+
+      10.772686684 seconds time elapsed
+
+      10.727445000 seconds user
+       0.004934000 seconds sys
+
+

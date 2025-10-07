@@ -1,0 +1,24 @@
+# started on Tue Oct  7 13:06:48 2025
+
+
+ Performance counter stats for './/gemm/o0/gemm_o0.out':
+
+           5404.72 msec task-clock                       #    0.999 CPUs utilized             
+                85      context-switches                 #   15.727 /sec                      
+                 4      cpu-migrations                   #    0.740 /sec                      
+              1509      page-faults                      #  279.200 /sec                      
+       52963989068      instructions                     #    3.53  insn per cycle            
+       15020545089      cycles                           #    2.779 GHz                       
+        1337670568      branches                         #  247.500 M/sec                     
+           1267027      branch-misses                    #    0.09% of all branches           
+                        TopdownL1                 #     26.1 %  tma_backend_bound      
+                                                  #      6.6 %  tma_bad_speculation    
+                                                  #      0.1 %  tma_frontend_bound     
+                                                  #     67.2 %  tma_retiring           
+
+       5.410619509 seconds time elapsed
+
+       5.373484000 seconds user
+       0.012866000 seconds sys
+
+
