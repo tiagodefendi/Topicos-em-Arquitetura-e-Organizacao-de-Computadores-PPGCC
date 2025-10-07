@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:13 2025
+
+
+ Performance counter stats for 'qemu-riscv64 .//atax/riscv_fma/atax_riscv_fma.out':
+
+             29.26 msec task-clock                       #    0.949 CPUs utilized             
+                 4      context-switches                 #  136.688 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              1066      page-faults                      #   36.427 K/sec                     
+          68158231      instructions                     #    1.81  insn per cycle            
+          37744641      cycles                           #    1.290 GHz                       
+          12712619      branches                         #  434.416 M/sec                     
+            265619      branch-misses                    #    2.09% of all branches           
+                        TopdownL1                 #     17.3 %  tma_backend_bound      
+                                                  #     15.4 %  tma_bad_speculation    
+                                                  #     31.7 %  tma_frontend_bound     
+                                                  #     35.6 %  tma_retiring           
+
+       0.030836618 seconds time elapsed
+
+       0.024707000 seconds user
+       0.005866000 seconds sys
+
+

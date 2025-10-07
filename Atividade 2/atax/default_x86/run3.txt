@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:10 2025
+
+
+ Performance counter stats for 'qemu-x86_64 .//atax/default_x86/atax_default.out':
+
+             37.27 msec task-clock                       #    0.966 CPUs utilized             
+                 4      context-switches                 #  107.311 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              1181      page-faults                      #   31.683 K/sec                     
+          83552810      instructions                     #    1.65  insn per cycle            
+          50500133      cycles                           #    1.355 GHz                       
+          15968634      branches                         #  428.401 M/sec                     
+            380336      branch-misses                    #    2.38% of all branches           
+                        TopdownL1                 #     15.1 %  tma_backend_bound      
+                                                  #     16.5 %  tma_bad_speculation    
+                                                  #     34.0 %  tma_frontend_bound     
+                                                  #     34.4 %  tma_retiring           
+
+       0.038568852 seconds time elapsed
+
+       0.029055000 seconds user
+       0.009361000 seconds sys
+
+

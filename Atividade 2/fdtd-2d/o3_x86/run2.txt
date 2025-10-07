@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:11 2025
+
+
+ Performance counter stats for 'qemu-x86_64 .//fdtd-2d/o3_x86/fdtd-2d_o3.out':
+
+             49.18 msec task-clock                       #    0.968 CPUs utilized             
+                 5      context-switches                 #  101.678 /sec                      
+                 1      cpu-migrations                   #   20.336 /sec                      
+              1198      page-faults                      #   24.362 K/sec                     
+         128429136      instructions                     #    1.94  insn per cycle            
+          66183933      cycles                           #    1.346 GHz                       
+          24187189      branches                         #  491.859 M/sec                     
+            392576      branch-misses                    #    1.62% of all branches           
+                        TopdownL1                 #     11.3 %  tma_backend_bound      
+                                                  #     15.9 %  tma_bad_speculation    
+                                                  #     33.6 %  tma_frontend_bound     
+                                                  #     39.2 %  tma_retiring           
+
+       0.050808961 seconds time elapsed
+
+       0.043561000 seconds user
+       0.006891000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:10 2025
+
+
+ Performance counter stats for 'qemu-x86_64 .//atax/o3_x86/atax_o3.out':
+
+             39.50 msec task-clock                       #    0.940 CPUs utilized             
+                 7      context-switches                 #  177.196 /sec                      
+                 3      cpu-migrations                   #   75.941 /sec                      
+              1183      page-faults                      #   29.946 K/sec                     
+          82360528      instructions                     #    1.60  insn per cycle            
+          51372896      cycles                           #    1.300 GHz                       
+          15801569      branches                         #  399.997 M/sec                     
+            384402      branch-misses                    #    2.43% of all branches           
+                        TopdownL1                 #     14.3 %  tma_backend_bound      
+                                                  #     16.1 %  tma_bad_speculation    
+                                                  #     36.3 %  tma_frontend_bound     
+                                                  #     33.3 %  tma_retiring           
+
+       0.042039364 seconds time elapsed
+
+       0.032091000 seconds user
+       0.008689000 seconds sys
+
+

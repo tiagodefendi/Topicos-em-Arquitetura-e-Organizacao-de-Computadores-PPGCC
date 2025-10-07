@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:14 2025
+
+
+ Performance counter stats for 'qemu-riscv64 .//fdtd-2d/riscv_base/fdtd-2d_riscv_base.out':
+
+             46.63 msec task-clock                       #    0.940 CPUs utilized             
+                19      context-switches                 #  407.431 /sec                      
+                 1      cpu-migrations                   #   21.444 /sec                      
+              1080      page-faults                      #   23.159 K/sec                     
+         119297267      instructions                     #    1.72  insn per cycle            
+          69426758      cycles                           #    1.489 GHz                       
+          20844295      branches                         #  446.980 M/sec                     
+            289365      branch-misses                    #    1.39% of all branches           
+                        TopdownL1                 #     14.1 %  tma_backend_bound      
+                                                  #     13.4 %  tma_bad_speculation    
+                                                  #     24.9 %  tma_frontend_bound     
+                                                  #     47.6 %  tma_retiring           
+
+       0.049596778 seconds time elapsed
+
+       0.036321000 seconds user
+       0.011641000 seconds sys
+
+

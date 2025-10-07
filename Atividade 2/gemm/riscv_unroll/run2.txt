@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:12 2025
+
+
+ Performance counter stats for 'qemu-riscv64 .//gemm/riscv_unroll/gemm_riscv_unroll.out':
+
+             33.13 msec task-clock                       #    0.956 CPUs utilized             
+                13      context-switches                 #  392.430 /sec                      
+                 2      cpu-migrations                   #   60.374 /sec                      
+              1074      page-faults                      #   32.421 K/sec                     
+          85059889      instructions                     #    1.97  insn per cycle            
+          43278973      cycles                           #    1.306 GHz                       
+          15778349      branches                         #  476.300 M/sec                     
+            275078      branch-misses                    #    1.74% of all branches           
+                        TopdownL1                 #     14.7 %  tma_backend_bound      
+                                                  #     17.4 %  tma_bad_speculation    
+                                                  #     29.7 %  tma_frontend_bound     
+                                                  #     38.2 %  tma_retiring           
+
+       0.034663860 seconds time elapsed
+
+       0.025581000 seconds user
+       0.008876000 seconds sys
+
+

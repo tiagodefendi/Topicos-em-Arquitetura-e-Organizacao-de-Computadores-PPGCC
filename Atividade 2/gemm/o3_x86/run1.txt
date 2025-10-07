@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:09 2025
+
+
+ Performance counter stats for 'qemu-x86_64 .//gemm/o3_x86/gemm_o3.out':
+
+             48.21 msec task-clock                       #    0.954 CPUs utilized             
+                10      context-switches                 #  207.408 /sec                      
+                 2      cpu-migrations                   #   41.482 /sec                      
+              1192      page-faults                      #   24.723 K/sec                     
+         104613502      instructions                     #    1.75  insn per cycle            
+          59640468      cycles                           #    1.237 GHz                       
+          19825625      branches                         #  411.199 M/sec                     
+            392135      branch-misses                    #    1.98% of all branches           
+                        TopdownL1                 #     15.0 %  tma_backend_bound      
+                                                  #     15.0 %  tma_bad_speculation    
+                                                  #     32.8 %  tma_frontend_bound     
+                                                  #     37.2 %  tma_retiring           
+
+       0.050530955 seconds time elapsed
+
+       0.038164000 seconds user
+       0.011697000 seconds sys
+
+

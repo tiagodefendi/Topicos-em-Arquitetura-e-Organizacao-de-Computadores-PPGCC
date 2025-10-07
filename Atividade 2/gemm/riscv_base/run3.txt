@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:12 2025
+
+
+ Performance counter stats for 'qemu-riscv64 .//gemm/riscv_base/gemm_riscv_base.out':
+
+             31.95 msec task-clock                       #    0.944 CPUs utilized             
+                 4      context-switches                 #  125.188 /sec                      
+                 1      cpu-migrations                   #   31.297 /sec                      
+              1074      page-faults                      #   33.613 K/sec                     
+          95366090      instructions                     #    2.13  insn per cycle            
+          44851033      cycles                           #    1.404 GHz                       
+          16945658      branches                         #  530.348 M/sec                     
+            272567      branch-misses                    #    1.61% of all branches           
+                        TopdownL1                 #     15.2 %  tma_backend_bound      
+                                                  #     13.9 %  tma_bad_speculation    
+                                                  #     29.0 %  tma_frontend_bound     
+                                                  #     41.9 %  tma_retiring           
+
+       0.033861939 seconds time elapsed
+
+       0.025658000 seconds user
+       0.007853000 seconds sys
+
+

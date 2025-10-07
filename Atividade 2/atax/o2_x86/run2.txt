@@ -1,0 +1,24 @@
+# started on Tue Oct  7 14:20:10 2025
+
+
+ Performance counter stats for 'qemu-x86_64 .//atax/o2_x86/atax_o2.out':
+
+             35.91 msec task-clock                       #    0.951 CPUs utilized             
+                 5      context-switches                 #  139.225 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              1184      page-faults                      #   32.968 K/sec                     
+          82323927      instructions                     #    1.65  insn per cycle            
+          49747063      cycles                           #    1.385 GHz                       
+          15794417      branches                         #  439.795 M/sec                     
+            376346      branch-misses                    #    2.38% of all branches           
+                        TopdownL1                 #     15.4 %  tma_backend_bound      
+                                                  #     16.9 %  tma_bad_speculation    
+                                                  #     33.6 %  tma_frontend_bound     
+                                                  #     34.1 %  tma_retiring           
+
+       0.037772261 seconds time elapsed
+
+       0.032610000 seconds user
+       0.004957000 seconds sys
+
+
